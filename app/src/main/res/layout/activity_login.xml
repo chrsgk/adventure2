@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/image_view1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/llob" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Name"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_person_24"
+        android:layout_below="@id/image_view1"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/edt_txt1"
+        android:layout_marginTop="3dp"
+        android:hint="Email"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_email_24"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_txt3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/edt_txt2"
+        android:layout_marginTop="3dp"
+        android:hint="Password"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_vpn_key_24"/>
+
+    <Button
+        android:id="@+id/register_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_txt3"
+        android:text="@string/register1"
+        android:backgroundTint="@color/material_dynamic_primary20"/>
+
+    <Button
+        android:id="@+id/access_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_Btn"
+        android:text="@string/access1"
+        android:backgroundTint="@color/teal_200"/>
+</RelativeLayout>

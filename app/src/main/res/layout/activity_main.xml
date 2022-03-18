@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txv_act1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/intro"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/advBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txv_act1"
+        android:clickable="true"
+        android:text="@string/activity1" />
+
+    <Button
+        android:id="@+id/advBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advBtn1"
+        android:clickable="true"
+        android:text="@string/activity2" />
+
+    <Button
+        android:id="@+id/advBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advBtn2"
+        android:clickable="true"
+        android:text="@string/activity3" />
+
+    <Button
+        android:id="@+id/advBtn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advBtn3"
+        android:clickable="true"
+        android:text="@string/activity4" />
+
+    <Button
+        android:id="@+id/advBtn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advBtn4"
+        android:clickable="true"
+        android:text="@string/activity5" />
+
+    <Button
+        android:id="@+id/advBtn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advBtn5"
+        android:clickable="true"
+        android:text="@string/activity6" />
+
+    <Button
+        android:id="@+id/advBtn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advBtn6"
+        android:text="@string/activity7"
+        android:clickable="true"/>
+
+
+</RelativeLayout>
